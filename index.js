@@ -61,7 +61,7 @@ run().catch(console.dir);
 
 
 app.get('/', (req, res) => {
-    res.send('Running RR Travely');
+    res.send('Running RR Travely server');
 });
 
 app.listen(port, () => {
